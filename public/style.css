@@ -1,0 +1,160 @@
+/*Overall document styles*/
+html {
+  background-color: #e4e3e3;
+}
+
+body {
+  width: 100%;
+  font: 1em/1.4 Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Overal page layout for body*/
+.container {
+  display: grid;
+  grid-template-columns: 225px 1fr 1fr;
+  grid-template-rows: 305px 50px 1fr 1fr;
+  margin: 20px;
+
+  grid-column-gap: 35px;
+  grid-row-gap: 10px;
+}
+
+header {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+aside {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.intro {
+  grid-column: 2;
+  grid-row: 1;
+  padding-left: 10px;
+}
+
+.projectsTitle {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.certContainer {
+  grid-column: 3;
+  grid-row: 1 / 2;
+}
+
+.caveContainer {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.iotContainer {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.sqlContainer {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.gameContainer {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+/*Container styling*/
+article, .caveContainer, .gameContainer, .sqlContainer, .iotContainer {
+  border: solid #1b262c;
+  border-radius: 5px;
+  border-width: .9em thick thick .9em;
+  box-shadow: 5px 5px 7px black;
+  background-color: #b9d7ea;
+}
+
+/*Title styling*/
+#caveTitle, #gameTitle, #sqlTitle, #iotTitle {
+  font-size:100%;
+  font-weight:bold;
+  margin-left: 15px;
+  margin-bottom: -10px;
+}
+
+#certHeading {
+  text-align: center;
+  margin-top:-10px;
+}
+
+/*General text styling*/
+#contactInfo {
+  text-align: center;
+  font-size: 110%;
+}
+
+.links {
+  line-height: 0;
+  text-align: center;
+}
+
+.summary {
+  line-height: 1.5;
+  text-indent: 20px;
+}
+
+/*Image hover interaction*/
+#linkedinImg:hover, #githubImg:hover, #twitterImg:hover, #facebookImg:hover, #certImg:hover, #validatorImg:hover {
+  box-shadow: 0 0 1px 2px black;
+}
+
+/*Email link hover interaction*/
+#email:hover{
+  text-shadow: 1px 1px 5px black;
+}
+
+/*Image/video styling*/
+#linkedinImg, #githubImg, #twitterImg, #facebookImg {
+  box-shadow: 2px 2px 5px black;
+}
+
+#caveVideo, #gameVideo, #sqlVideo, #iotImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid  #1b262c thick;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px black;
+}
+
+#sqlVideo {
+  margin-bottom: 40px;
+}
+
+#certImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid  #1b262c thin;
+  box-shadow: 4px 4px 10px black;
+}
+
+#validatorImg {
+  border:0;
+  width:88px;
+  height:31px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#headshotImg {
+  border: solid #1b262c;
+  border-radius: 5px;
+  border-width: 6px;
+  box-shadow: 4px 4px 10px black;
+}

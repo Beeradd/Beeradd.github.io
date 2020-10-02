@@ -1,0 +1,21 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "website",
+    "location",
+    "database"
+  ],
+  "author": "Brady Sprinkle",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-server": "^0.11.1",
+    "nedb": "^1.8.0"
+  }
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Brady Sprinkle">
+    <meta name="description" content="My personal website displaying project
+      information as well as website links">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Brady Sprinkle's Website</title>
+  </head>
+  <body>
+    <!--Overall container for the body contents-->
+    <div class="container">
+      <header>
+        <img id="headshotImg" src="images/headshot.png" alt="Headshot picture of myself" width="216" height="302">
+      </header>
+      <!--Contact info contained in an aside-->
+      <aside>
+        <p id="contactInfo">
+          <a href="mailto:brady.sprinkle95@gmail.com?subject=feedback" id="email">brady.sprinkle95@gmail.com</a>
+          <br>
+          217-883-7972
+        </p>
+        <div class="links">
+          <a target="_blank" href="https://www.linkedin.com/in/brady-sprinkle-27a111164/">
+            <img id="linkedinImg" src="images/linkedin_icon.png" alt="LinkedIn icon taking you
+              to my personal LinkedIn page (opens new tab)" width="25" height="25" title="LinkedIn Profile">
+          </a>
+          <a target="_blank" href="https://github.com/Beeradd">
+            <img id="githubImg" src="images/github_icon.png" alt="Github icon taking you to my personal Github page (opens new tab)"
+              width="25" height="25" title="Github Profile">
+          </a>
+          <a target="_blank" href="https://twitter.com/S_brinkle">
+            <img id="twitterImg" src="images/twitter_icon.png" alt="Twitter icon taking you
+              to my personal Twitter page (opens new tab)" width="25" height="25" title="Twitter Profile">
+          </a>
+          <a target="_blank" href="https://www.facebook.com/brady.sprinkle.9">
+            <img id="facebookImg" src="images/facebook_icon.png" alt="Facebook icon taking you
+              to my personal Facebook page (opens new tab)" width="25" height="25" title="Facebook Profile">
+          </a>
+        </div>
+        <p>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img id="validatorImg" src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+          </a>
+        </p>
+      </aside>
+      <!--Short summary of myself and the page contained in an article-->
+      <article class="intro">
+        <h3 id="welcomeTitle">Welcome to my website!</h3>
+        <p class="summary">
+          My name is Brady Sprinkle and I'm a 25 year old from Jacksonville,
+          Illinois. I graduated from Southern Illinois University of Carbondale
+          with a Bachelor of Science in Computer Science and have an ISTQB certification in software testing.
+          I'm incredibly passionate about software development, especially video games and their design.
+          I'm also an avid basketball fan, who really wishes Jerry Reinsdorf would sell the Bulls.<br><br>
+          Currently I'm searching for an entry/associate level role in the Software Testing field.
+          Please feel free to check out <a href="documents/BradySprinkleResume.pdf"><u>my resume here</u></a>,
+          as well as check out some of my past projects down below.
+        </p>
+      </article>
+      <!--Different containers to organize projects on the page-->
+      <div class="projectsTitle">
+        <h2 id="projectsHeading">School Projects</h2>
+      </div>
+      <!--Container for CAVE project info-->
+      <div class="caveContainer">
+        <div class="cave">
+          <div class="caveDesc">
+            <h4 id="caveTitle">Prototype CAVE</h4>
+            <ul>
+              <li>Implemented prototype C.A.V.E. system for senior project</li>
+              <li>Featured head tracking, motion controls, and three synchronized screens</li>
+              <li>Mentored by Dr. Christos Mousas</li>
+              <li>Visit the <a target="_blank" href="https://github.com/Beeradd/Senior-Project">repository</a>
+                for more detailed information.
+              </li>
+            </ul>
+          </div>
+          <!--Embedded video from youtube-->
+          <span class="caveVideo">
+            <iframe id="caveVideo" width="500" height="291" src="https://www.youtube.com/embed/agspz3Qh6Cw"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+          </span>
+        </div>
+      </div>
+      <!--Container for game project info-->
+      <div class="gameContainer">
+        <div class="game">
+          <div class="gameDesc">
+            <h4 id="gameTitle">Time To Graduate!</h4>
+            <ul>
+              <li>Simple resource-management game built in the Unity Engine</li>
+              <li>Detailed information can be found in the
+                <a target="_blank" href="documents/Game_Proposal.pdf"><u>proposal document</u></a>
+              </li>
+              <li>Feel free to try it out <a target="_blank" href="https://saluki-my.sharepoint.com/:u:/g/personal/bsprinkle_siu_edu/ETpPxycPeShEtOTcLerzsFkBbnmAMaSycm3G1mRPbv8_hg?e=kyoium">
+                here</a>!
+              </li>
+            </ul>
+          </div>
+          <!--Embedded video from youtube-->
+          <span class="gameVideo">
+            <iframe id="gameVideo" width="500" height="291" src="https://www.youtube.com/embed/sLlXCxhJxaY"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+          </span>
+        </div>
+      </div>
+      <div class="sqlContainer">
+        <div class="sql">
+          <div class="sqlDesc">
+            <h4 id="sqlTitle">Java/SQL System</h4>
+            <ul>
+              <li>Database project using JavaFX and MYSQL, developed on Linux </li>
+              <li>Login system with authentication (admin, staff, or student)</li>
+              <li>Features include enrolling in courses, search functions, adding/removing/updating database entries</li>
+              <li>Visit the <a target="_blank" href="https://github.com/Beeradd/Database-Project">repository</a>
+                for more detailed information.
+              </li>
+            </ul>
+          </div>
+          <span class="sqlVideo">
+            <iframe id="sqlVideo" width="500" height="291" src="https://www.youtube.com/embed/efLAXAtzvEY"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+          </span>
+        </div>
+      </div>
+      <div class="iotContainer">
+        <div class="iotPaper">
+          <div class="iotDesc">
+            <h4 id="iotTitle">IoT Research Paper</h4>
+            <ul>
+              <li>Research into the potential of IoT and cyber-physical systems in healthcare</li>
+              <li>Focused on the Hierarchical Fog-Assisted computing architecture</li>
+              <li>Visit the <a target="_blank" href="https://github.com/Beeradd/Cyber-Physical-Systems-Project">
+                repository</a> for more information, or download <a target="_blank" href="documents/Final_Paper.pdf"><u>the paper here</u></a>.
+              </li>
+            </ul>
+            <img id="iotImg" src="images/iotProject.png" width="500" height="291"
+              alt="State transition chart with data flows for a Hierarchical Fog-Assisted computing architecture">
+          </div>
+        </div>
+      </div>
+      <div class="certContainer">
+        <h2 id="certHeading">ISTQB Certification</h2>
+        <figure>
+          <a target="_blank" href="documents/ISTQB-CTFL.pdf">
+            <img id="certImg" src="images/ISTQB-CTFL1024_1.jpg" width= "475" height="290" alt="ISTQB Foudnation Level certificate">
+          </a>
+        </figure>
+      </div>
+      <footer>
+      </footer>
+    </div>
+  </body>
+</html>
